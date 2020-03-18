@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1080px;
+    margin: auto;
+    height: 100%;
+}
+
+/* inizio proprietà CSS del header-top */
+#header-top {
+    height: 120px;
+    background-color: grey;
+    border: 1px solid white;
+}
+#header-top-left {
+width: 50%;
+height: 100%;
+float: left;
+background-color: yellow;
+}
+#header-top-right {
+width: 50%;
+height: 100%;
+float: right;
+background-color: green;
+}
+/* inizio proprietà CSS del header-bottom */
+#header-bottom {
+    height: 120px;
+    background-color: red;
+    border: 1px solid white;
+}
+}
+#header-bottom-left {
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: blue;
+
+}
+#header-bottom-right {
+    width: 70%;
+    height: 100%;
+    float: right;
+    background-color: purple;
+}
+#main-menu  {
+
+}
+#logo-container {
+}
+/* inizio proprietà CSS del main */
+
+#features {
+    background-color: lightcoral;
+    height: 500px;
+}
+/* inizio proprietà CSS del footer */
+footer {
+    height: 200px;
+    background-color: darkgreen;
+    border: 1px solid white;
+}
