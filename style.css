@@ -32,7 +32,7 @@
     font-size: 20px;
     padding: 10px;
 }
-
+/* inizio proprietà CSS del header-top-right */
 #header-top-right {
     width: 50%;
     height: 100%;
@@ -40,7 +40,17 @@
     border: 1px solid black;
 }
 
-.hubspot-free {
+.cta-container{
+float: right;
+}
+#search-icon {
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+.hubspot-button {
   background-color: orange;
   border: none;
   color: white;
@@ -50,7 +60,7 @@
   display: inline-block;
   font-size: 16px;
 }
-#log-in {
+#log-in-button {
   background-color: white;
   border: 1px solid orange;
   color: orange;
