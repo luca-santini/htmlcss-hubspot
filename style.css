@@ -9,7 +9,7 @@
     margin: auto;
     height: 100%;
 }
-/* inizio proprietà CSS del header-top */
+/*  header-top */
 #header-top {
     height: 120px;
     background-color: #efefef;
@@ -31,7 +31,7 @@
     font-size: 20px;
     padding: 10px;
 }
-/* inizio proprietà CSS del header-top-right */
+
 #header-top-right {
     width: 50%;
     height: 100%;
@@ -69,7 +69,7 @@ float: right;
   font-size: 16px;
 }
 
-/* inizio proprietà CSS del header-bottom */
+/* header-bottom */
 #header-bottom {
     height: 120px;
     border: 1px solid black;
@@ -107,7 +107,7 @@ img {
     margin-right: auto;
     width: 40%;
 }
-/* inizio proprietà CSS del main */
+/* prima sezione main */
 #jumbo-wrapper {
     background-color: #fef8f0;
     height: 400px;
@@ -120,15 +120,28 @@ img {
     top: 50%;
     transform: translateY(-50%);
 }
-
-#jumbo-content p {
-font-size: 18px;
+h2 {
+    font-size: 30px;
+}
+.text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.small-text {
+    margin-top: 10px;
+    font-size: 14px;
 }
 
-/* inizio proprietà CSS del footer */
+/* seconda sezione main */
+
+
+
+
+/* footer */
 
 footer {
-    height: 200px;
+    height: 600px;
     background-color: #33475b;
     border: 1px solid white;
 }
