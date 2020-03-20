@@ -109,6 +109,8 @@ float: right;
     width: 40%;
 }
 /* prima sezione main */
+
+
 #jumbo-wrapper {
     background-color: #fef8f0;
     height: 400px;
@@ -143,6 +145,7 @@ h2 {
 
 /* seconda sezione main */
 
+
 #section-wrapper {
     background-color: #f5f8fa;
     height: 800px;
@@ -156,10 +159,19 @@ h2 {
 }
 
 #hub-container {
-
+    background-color: grey;
+    width: 400px;
+    position: relative;
+}
+#hub-container-bottom {
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .hub {
+    float: left;
     padding: 20px;
     background-color: white;
     width: 400px;
