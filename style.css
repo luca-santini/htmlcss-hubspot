@@ -10,6 +10,7 @@
     height: 100%;
 }
 /*  header-top */
+
 #header-top {
     height: 120px;
     background-color: #efefef;
@@ -100,7 +101,7 @@ float: right;
     padding: 10px;
 }
 
-img {
+#hubspot {
     display: block;
     margin-top: 20px;
     margin-left: 20px;
@@ -123,10 +124,14 @@ img {
 h2 {
     font-size: 30px;
 }
-.text {
+.large-text {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 24px;
+}
+.medium-text {
+    margin-top: 10px;
+    font-size: 18px;
 }
 .small-text {
     margin-top: 10px;
@@ -147,6 +152,16 @@ h2 {
     transform: translateY(-50%);
 }
 
+#hub-container {
+
+}
+
+.hub {
+    padding: 20px;
+    background-color: white;
+    width: 400px;
+}
+
 .get-started {
   background-color: #ff7a59;
   border: none;
@@ -157,6 +172,9 @@ h2 {
   font-size: 16px;
 }
 
+ul {
+    list-style: none;
+}
 
 
 /* footer */
