@@ -7,7 +7,6 @@
 .container {
     width: 1080px;
     margin: auto;
-    height: 100%;
 }
 /*  header-top */
 
@@ -113,15 +112,13 @@ float: right;
 
 #jumbo-wrapper {
     background-color: #fef8f0;
-    height: 400px;
     position: relative;
 }
 
 #jumbo-content {
-    width: 20%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    width: 30%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 h2 {
@@ -148,33 +145,26 @@ h2 {
 
 #section-wrapper {
     background-color: #f5f8fa;
-    height: 800px;
     position: relative;
 }
 #section-content {
-    width: 20%;
-    position: absolute;
-    top: 40%;
-    transform: translateY(-50%);
+    width: 30%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 }
 
 #hub-container {
     background-color: grey;
-    width: 400px;
     position: relative;
-}
-#hub-container-bottom {
-    width: 20%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .hub {
+    border: 1px solid black;
     float: left;
     padding: 20px;
     background-color: white;
-    width: 400px;
+    width: 30%;
 }
 
 .get-started {
@@ -192,8 +182,6 @@ ul {
     list-style: none;
 }
 
-
-/* footer */
 
 footer {
     height: 600px;
