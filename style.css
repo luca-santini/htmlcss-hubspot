@@ -142,30 +142,45 @@ h2 {
 
 /* seconda sezione main */
 
-
 #section-wrapper {
     background-color: #f5f8fa;
     position: relative;
+    height: 300px;
 }
+
 #section-content {
-    width: 30%;
     padding-top: 30px;
     padding-bottom: 30px;
+}
 
+#section-content-left {
+    float: left;
+    width: 33%;
+}
+#section-content-right {
+    float: right;
+    width: 66%;
 }
 
 #hub-container {
-    background-color: grey;
     position: relative;
+    height: 400px;
+    background-color: #f5f8fa;
+}
+
+#hub-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .hub {
-    border: 1px solid black;
     float: left;
+    margin-left: 20px;
     padding: 20px;
     background-color: white;
     width: 30%;
 }
+
 
 .get-started {
   margin-top: 10px;
@@ -184,7 +199,7 @@ ul {
 
 
 footer {
-    height: 600px;
+    /* height: 600px; */
     background-color: #33475b;
     border: 1px solid white;
 }
