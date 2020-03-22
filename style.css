@@ -159,9 +159,14 @@ h2 {
 }
 #section-content-right {
     float: right;
+    background-color: white;
     width: 66%;
+    padding: 20px;
 }
-
+#section-content-right li {
+display: inline-block;
+padding: 10px;
+}
 #hub-container {
     position: relative;
     height: 400px;
@@ -170,17 +175,28 @@ h2 {
 
 #hub-content {
     padding-top: 30px;
-    padding-bottom: 30px;
 }
 
-.hub {
+#box1 {
+    float: left;
+    padding: 20px;
+    background-color: white;
+    width: 32%;
+}
+#box2 {
     float: left;
     margin-left: 20px;
     padding: 20px;
     background-color: white;
-    width: 30%;
+    width: 32%;
 }
-
+#box3 {
+    float: left;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: white;
+    width: 32%;
+}
 
 .get-started {
   margin-top: 10px;
@@ -188,6 +204,17 @@ h2 {
   border: none;
   color: white;
   padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+#free-crm {
+  margin-top: 10px;
+  float: right;
+  background-color: #ff7a59;
+  border: none;
+  color: white;
+  padding: 15px 60px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
