@@ -90,7 +90,6 @@ float: right;
 }
 
 .nav {
-    list-style-type: none;
     text-align: right;
     padding-top: 20px;
 }
@@ -224,9 +223,69 @@ ul {
     list-style: none;
 }
 
-
-footer {
-    /* height: 600px; */
+#footer-container {
+    height: 600px;
     background-color: #33475b;
-    border: 1px solid white;
 }
+
+/* #footer-content {
+
+} */
+
+#footer-top {
+padding-top: 100px;
+}
+#footer-block-1 {
+float: left;
+width: 24%;
+margin-left: 0px;
+}
+#footer-block-2 {
+float: left;
+width: 24%;
+margin-left: 10px;
+}
+#footer-block-3 {
+float: left;
+width: 24%;
+margin-left: 10px;
+}
+#footer-block-4 {
+float: left;
+width: 24%;
+margin-left: 10px;
+}
+
+.hubspot-support {
+    margin-top: 22px;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-menu li  {
+    font-size: 18px;
+    color: white;
+    padding-top: 20px;
+}
+.footer-menu li:first-child  {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+.icon {
+    margin-left: -20px;
+}
+.icon li {
+    padding-left: 20px;
+    display: inline-block;
+}
+
+/* #footer-bottom {
+
+} */
